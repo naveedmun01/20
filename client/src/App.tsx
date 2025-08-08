@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_KEY = "f4a84dce793432f2df171ece248115d9"; // ✅ Hardcoded for deployment
+const API_KEY = "91d753dd0dcaeda0868a0a17eae9a4f7"; // ✅ New working API key
 
 export default function App() {
   const [weather, setWeather] = useState<any>(null);
